@@ -1,7 +1,7 @@
 # SnapScribe
 
-[![Version](https://img.shields.io/badge/version-v0.0.1--alpha-orange.svg)](https://github.com/nocturn/Snap-Scribe/releases)
-[![Status](https://img.shields.io/badge/status-Heavily%20Under%20Development-critical.svg)](#roadmap)
+[![Version](https://img.shields.io/badge/version-v0.0.1--alpha-orange.svg)](https://github.com/nocturnnnnn/Snap-Scribe/releases)
+[![Status](https://img.shields.io/badge/status-Heavily%20Under%20Development-critical.svg)](#-roadmap--current-checklist-v001-alpha)
 [![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/kotlin-2.3.20-blue.svg)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/UI-Jetpack%20Compose%20%2F%20Material%203-blueviolet.svg)](https://developer.android.com/jetpack/compose)
@@ -12,28 +12,7 @@
 
 ---
 
-## 🎓 Academic Context
-
-This project is developed as the **Tugas Akhir (Final Project)** for the **Pemrograman Perangkat Bergerak (Mobile Device Programming)** course:
-* **Academic Level**: Semester 5
-* **Department**: Teknik Informatika (Informatics Engineering)
-* **Institution**: **Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah di Wonosobo**
-
----
-
-## 👥 Development Team
-
-Developed by **Kelompok SnapScribe**:
-
-| No | Name | Student ID (NIM) | Role |
-| :---: | :--- | :---: | :--- |
-| 1 | **Zala Risky Pratama** | `2024150064` | Android Developer / System Architecture |
-| 2 | **Daffa Mahibi Kusumawardani** | `2024150071` | Android Developer / UI & Accessibility |
-| 3 | **Abdul Hamid** | `2024150068` | Android Developer / Database & On-Device ML |
-
----
-
-## 📱 Project Purpose & Overview
+## 📱 Overview & Core Features
 
 **SnapScribe** is an **offline-first, zero-learning-curve Android utility application** created to solve everyday gallery clutter and screenshot overload for users of all generations—from tech-savvy students to older parents and seniors.
 
@@ -51,7 +30,7 @@ Billions of screenshots, transaction slips, grocery receipts, verification codes
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Architecture & Tech Stack
 
 SnapScribe adheres to modern Android development best practices, following **Clean Architecture** and **MVVM (Model-View-ViewModel)** with reactive streams.
 
@@ -127,7 +106,7 @@ SnapScribe adheres to modern Android development best practices, following **Cle
 
 ```bash
 # Clone the repository
-git clone https://github.com/nocturn/Snap-Scribe.git
+git clone https://github.com/nocturnnnnn/Snap-Scribe.git
 cd Snap-Scribe
 
 # Build the debug APK
@@ -136,6 +115,27 @@ cd Snap-Scribe
 # Run unit tests
 ./gradlew testDebugUnitTest
 ```
+
+---
+
+## 👥 Development Team
+
+Developed by **Kelompok SnapScribe**:
+
+| No | Name | Student ID (NIM) | Role |
+| :---: | :--- | :---: | :--- |
+| 1 | **Zala Risky Pratama** | `2024150064` | Android Developer / System Architecture |
+| 2 | **Daffa Mahibi Kusumawardani** | `2024150071` | Android Developer / UI & Accessibility |
+| 3 | **Abdul Hamid** | `2024150068` | Android Developer / Database & On-Device ML |
+
+---
+
+## 🎓 Academic Context
+
+This project is developed as the **Tugas Akhir (Final Project)** for the **Pemrograman Perangkat Bergerak (Mobile Device Programming)** course:
+* **Academic Level**: Semester 5
+* **Department**: Teknik Informatika (Informatics Engineering)
+* **Institution**: **Universitas Sains Al-Qur'an (UNSIQ) Jawa Tengah di Wonosobo**
 
 ---
 
