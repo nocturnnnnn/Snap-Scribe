@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "fwcd.kotlin",
+    "vscjava.vscode-gradle",
+    "tamasfe.even-better-toml",
+    "redhat.vscode-xml",
+    "usernamehw.errorlens",
+    "eamodio.gitlens"
+  ]
+}
