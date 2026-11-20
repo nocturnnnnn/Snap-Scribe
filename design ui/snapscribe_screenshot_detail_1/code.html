@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+  tailwind.config = {darkMode: "class", theme: {extend: {colors: {"primary-fixed": "#ffdcbc", "on-secondary-container": "#c4b6a5", "surface-container-lowest": "#120d0b", "surface-bright": "#3f3835", "inverse-primary": "#895200", "surface-container-highest": "#3b3331", surface: "#181210", "surface-container-high": "#2f2826", "on-surface": "#ede0dc", "on-secondary": "#372f22", "secondary-container": "#51483a", "on-tertiary": "#4c2700", "on-primary-fixed-variant": "#683d00", "on-tertiary-container": "#623300", "on-secondary-fixed": "#221a0f", tertiary: "#ffb77a", "tertiary-fixed": "#ffdcc2", "on-surface-variant": "#d7c3b1", "on-primary-fixed": "#2c1700", "on-background": "#ede0dc", "on-error-container": "#ffdad6", "inverse-on-surface": "#362f2d", "outline-variant": "#524436", "primary-container": "#e89a3c", "secondary-fixed-dim": "#d2c4b2", "on-tertiary-fixed": "#2e1500", "surface-container": "#251e1c", "tertiary-container": "#f1953d", secondary: "#d2c4b2", primary: "#ffb86a", outline: "#a08e7d", "on-secondary-fixed-variant": "#4f4538", "surface-tint": "#ffb86a", "primary-fixed-dim": "#ffb86a", "surface-dim": "#181210", background: "#181210", "inverse-surface": "#ede0dc", "surface-container-low": "#201a18", "tertiary-fixed-dim": "#ffb77a", "surface-variant": "#3b3331", "secondary-fixed": "#efe0cd", error: "#ffb4ab", "on-primary": "#492900", "error-container": "#93000a", "on-tertiary-fixed-variant": "#6d3a00", "on-error": "#690005", "on-primary-container": "#5d3600"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"space-md": "1rem", "space-lg": "1.5rem", "space-xl": "2.25rem", "space-sm": "0.5rem", gutter: "1rem", "space-xs": "0.25rem", margin: "1.25rem"}, fontFamily: {"display-lg": ["Literata"], "headline-lg": ["Literata"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Literata"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg-mobile": ["Literata"], "headline-sm": ["Literata"], "body-sm": ["Plus Jakarta Sans"], headline: ["Literata"], display: ["Literata"], body: ["Plus Jakarta Sans"], label: ["Plus Jakarta Sans"]}, fontSize: {"display-lg": ["40px", {lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "600"}], "headline-lg": ["28px", {lineHeight: "36px", letterSpacing: "-0.01em", fontWeight: "600"}], "body-lg": ["16px", {lineHeight: "24px", fontWeight: "400"}], "headline-md": ["22px", {lineHeight: "30px", fontWeight: "500"}], "body-md": ["14px", {lineHeight: "22px", fontWeight: "400"}], "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600"}], "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.03em", fontWeight: "500"}], "label-lg": ["14px", {lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600"}], "display-lg-mobile": ["32px", {lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "600"}], "headline-sm": ["18px", {lineHeight: "26px", fontWeight: "500"}], "body-sm": ["12px", {lineHeight: "18px", fontWeight: "400"}]}}}}
+</script><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/><style id="font-override">body, p, h1, h2, h3, h4, h5, h6, button, input, label, span:not(.material-symbols-outlined):not([class*="material-symbols"]), div:not(.material-symbols-outlined) { font-family: 'Plus Jakarta Sans', sans-serif; }
+.material-symbols-outlined, .material-symbols, [class*="material-symbols"], .material-icons, [class*="material-icons"] {
+  font-family: 'Material Symbols Outlined' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+  white-space: nowrap !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  word-wrap: normal !important;
+  direction: ltr !important;
+  -webkit-font-feature-settings: 'liga' 1 !important;
+  font-feature-settings: 'liga' 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-background font-body-md text-on-surface antialiased flex flex-col min-h-screen font-sans" style='font-family: "Plus Jakarta Sans", sans-serif !important;'><header class="fixed top-0 w-full z-50 bg-[#14100E]/90 backdrop-blur-xl border-b border-outline-variant/30 pt-safe font-sans" style='font-family: "Plus Jakarta Sans", sans-serif !important;'><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Go back" class="min-h-[48px] min-w-[48px] flex items-center justify-center -ml-space-xs rounded-full text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="SnapScribe Logo" class="w-8 h-8 rounded-lg object-contain shadow-xs border border-outline-variant/40" src="https://lh3.googleusercontent.com/aida/ALJJyrA-SxKtxRtmGBmRAYJYO25amLeN1X17OlLAD6oWBIR1OnfRYW_CspJpsyjzQB4pZF1Y0Os8cJ2raCf1Xvvrx9MqhTPlIiIGoLzIySSRm0FFAt7DLVAFRDevqcShvLjtpdUrST_8jWj1S2p0A1ZMzV2vpATDKlH-3xbvQ7bwvq7yZO_Jc9-wP_RozcNffX_uUH8AxDz7wJMBgYWzZdcyH1uoF3exN6bQTbwjGycLMs-L1g"/><h1 class="font-headline-sm text-headline-sm text-on-surface">Detail</h1></div><a aria-label="Masuk Akun / Profil" class="flex items-center min-h-[48px] min-w-[48px] justify-center rounded-full hover:opacity-80 active:scale-95 transition-all" href="login.html"><img alt="Profile Avatar" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant/50" src="https://lh3.googleusercontent.com/aida/ALJJyrDlnwaNgVyAoMzRMTWZUnYBpODW_0gkWSJtUEuRhpj81NpcgmmIjx7wQsnJF5HumlfchnF18DjeUUQzx-g49Lbce6C4Z5gK6d6ncJOjKqUp5AfDR8YxEJu_dKy3Zn4QI9vKa_JhR7e6mo80c3pS2HQvjoN9TyJK-6AI7OyUEdMpY7vSLg5YdKoZcbSpsbAtoHJG28fbRVmMD6NZGlcNDxzemJ97bJ0rQBgVLwqlDbKzbg"/></a></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-background pb-safe font-sans" style='font-family: "Plus Jakarta Sans", sans-serif !important;'><div class="flex flex-col w-full">
+<!-- Sub-Header / Secondary Context Bar -->
+<div class="px-gutter py-space-sm flex items-center justify-between bg-background">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high border border-outline-variant/30 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">calendar_today</span>
+        Today, 2:20 PM
+      </span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Share receipt" class="min-h-[44px] px-3.5 flex items-center gap-1.5 rounded-full bg-surface-container-high border border-outline-variant/40 text-on-surface shadow-sm active:scale-95 transition-transform hover:bg-surface-container-highest" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">ios_share</span>
+<span class="font-label-md text-label-md">Share</span>
+</button>
+<button aria-label="Delete slip" class="min-h-[44px] px-3.5 flex items-center gap-1.5 rounded-full bg-error-container/30 border border-error/30 text-error shadow-sm active:scale-95 transition-transform hover:bg-error-container/50" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+<span class="font-label-md text-label-md">Delete</span>
+</button>
+</div>
+</div>
+<!-- Main Content Flow -->
+<div class="flex flex-col gap-space-md px-gutter pb-space-xl">
+<!-- Top Half: Friendly Tactile Frame for Screenshot -->
+<div class="relative w-full rounded-2xl bg-surface-container-low border border-outline-variant/40 p-space-sm shadow-xl overflow-hidden">
+<!-- Segmented View Toggle Pill -->
+<div class="flex items-center justify-center mb-space-sm">
+<div class="inline-flex p-1 rounded-full bg-surface-container-lowest border border-outline-variant/30 text-on-surface" role="tablist">
+<button class="min-h-[38px] px-4 rounded-full font-label-md text-label-md transition-all text-on-surface-variant hover:text-on-surface" id="toggle-original" onclick="setMode('original')" type="button">
+            Original
+          </button>
+<button class="min-h-[38px] px-4 rounded-full font-label-md text-label-md transition-all bg-surface-container-high text-primary shadow-sm" id="toggle-highlight" onclick="setMode('highlight')" type="button">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">edit_note</span>
+              Highlight Text
+            </span>
+</button>
+</div>
+</div>
+<!-- Screenshot Paper Display with Simulated OCR Layers -->
+<div class="relative rounded-xl overflow-hidden bg-surface-container-lowest/80 border border-outline-variant/20 min-h-[310px] flex flex-col items-center justify-center p-space-md">
+<!-- Background Graphic / Paper Receipt Simulation -->
+<div class="w-full max-w-[320px] rounded-xl bg-surface-container-high/90 border border-outline-variant/40 p-5 shadow-2xl flex flex-col gap-3">
+<!-- Receipt Header -->
+<div class="flex items-center justify-between pb-2.5 border-b border-outline-variant/30">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center text-primary font-headline-sm text-[12px] font-bold">
+                BCA
+              </div>
+<span class="font-label-md text-label-md text-on-surface font-medium">m-Transfer Berhasil</span>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<!-- Highlight Overlays / OCR Visualizer -->
+<div class="space-y-2.5 text-left">
+<div class="flex flex-col gap-1">
+<span class="font-body-sm text-[11px] text-on-surface-variant/80">Tanggal &amp; Waktu</span>
+<span class="font-body-sm text-body-sm rounded px-2 py-0.5 transition-colors bg-primary-container/25 text-primary border border-primary/30 w-fit font-medium" id="hl-1">
+                24 Okt 2024 • 14:19:42 WIB
+              </span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-body-sm text-[11px] text-on-surface-variant/80">Jumlah Transfer</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold rounded px-2 py-0.5 transition-colors bg-primary-container/25 border border-primary/30 w-fit" id="hl-2">
+                Rp 250.000
+              </span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-body-sm text-[11px] text-on-surface-variant/80">Penerima</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface rounded px-2 py-0.5 transition-colors bg-primary-container/25 border border-primary/30 text-primary w-fit" id="hl-3">
+                Toko Buku Berkah
+              </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant rounded px-2 py-0.5 transition-colors bg-primary-container/20 border border-primary/25 w-fit" id="hl-4">
+                BCA 8830192841
+              </span>
+</div>
+<div class="flex flex-col gap-1 pt-1">
+<span class="font-body-sm text-[11px] text-on-surface-variant/80">Nomor Referensi</span>
+<span class="font-body-sm text-body-sm text-on-surface font-mono rounded px-2 py-0.5 transition-colors bg-primary-container/20 border border-primary/25 text-primary w-fit" id="hl-5">
+                TRX-20241024-99482
+              </span>
+</div>
+</div>
+<!-- Decorative Perforated Notch Bottom -->
+<div class="flex justify-between items-center pt-2.5 border-t border-dashed border-outline-variant/30 text-on-surface-variant">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Simpan Bukti Pembayaran</span>
+<span class="material-symbols-outlined text-[18px] text-primary">verified</span>
+</div>
+</div>
+<!-- Subtle Zoom / Fullscreen Quick Badge -->
+<button aria-label="Expand image" class="absolute bottom-3 right-3 min-h-[44px] min-w-[44px] rounded-full bg-surface-container-high/90 border border-outline-variant/40 backdrop-blur text-on-surface flex items-center justify-center shadow-md active:scale-95 transition-transform hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</button>
+</div>
+</div>
+<!-- Bottom Half: Warm Stationery Bottom Sheet Card -->
+<div class="w-full rounded-2xl bg-surface-container-low border border-outline-variant/40 shadow-xl p-space-md flex flex-col gap-space-md">
+<!-- Drag pill indicator for tactile grounding -->
+<div class="w-10 h-1 rounded-full bg-surface-container-highest mx-auto"></div>
+<!-- Highlighted Summary Card (Amber-tinted Dark Card) -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/50 p-space-md shadow-md flex flex-col gap-3">
+<!-- Header row of summary card -->
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Deteksi Pintar</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container/60 border border-secondary/30 text-secondary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+            Terverifikasi
+          </span>
+</div>
+<!-- Amount and Recipient Info -->
+<div class="space-y-1.5">
+<p class="font-label-md text-label-md text-on-surface-variant">Detected Amount</p>
+<div class="flex items-baseline gap-2.5">
+<span class="font-display-lg-mobile text-display-lg-mobile text-on-surface font-semibold tracking-tight">Rp 250.000</span>
+<span class="inline-block px-2.5 py-0.5 rounded-full bg-surface-container-high border border-primary/40 text-primary font-label-sm text-label-sm">Lunas</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface flex items-center gap-1.5 pt-1">
+<span class="material-symbols-outlined text-[18px] text-primary">account_balance</span>
+<span class="font-semibold text-on-surface">BCA 8830192841</span>
+<span class="text-on-surface-variant">• Toko Buku Berkah</span>
+</p>
+</div>
+<!-- Primary Action Button: Amber #E89A3C CTA -->
+<button class="w-full min-h-[52px] rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-lg hover:brightness-105 active:scale-98 transition-all font-semibold" id="copy-summary-btn" onclick="copyFullTranscribe()" type="button">
+<span class="material-symbols-outlined text-[20px]">content_copy</span>
+<span id="copy-btn-label">Salin Semua Teks OCR</span>
+</button>
+</div>
+<!-- All Extracted Text Section -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<!-- Header with Title and "Copy All" -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">notes</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">All Extracted Text</h2>
+</div>
+<button class="min-h-[44px] px-3 flex items-center gap-1 text-primary hover:text-primary-fixed font-label-md text-label-md active:scale-95 transition-transform" onclick="copyFullTranscribe()" type="button">
+<span class="material-symbols-outlined text-[18px]">copy_all</span>
+<span>Copy All</span>
+</button>
+</div>
+<!-- Readable Transcription Block with Line Indicators -->
+<div class="rounded-xl bg-surface-container-lowest border border-outline-variant/30 p-space-md text-on-surface font-body-sm text-body-sm space-y-2.5">
+<div class="flex items-start gap-3">
+<span class="font-label-sm text-label-sm text-primary w-5 text-right select-none font-mono">01</span>
+<p class="flex-1"><strong class="font-semibold text-on-surface">Status:</strong> <span class="text-on-surface-variant">m-Transfer Berhasil</span></p>
+</div>
+<div class="flex items-start gap-3">
+<span class="font-label-sm text-label-sm text-primary w-5 text-right select-none font-mono">02</span>
+<p class="flex-1"><strong class="font-semibold text-on-surface">Waktu:</strong> <span class="text-on-surface-variant">24 Okt 2024, 14:19:42 WIB</span></p>
+</div>
+<div class="flex items-start gap-3">
+<span class="font-label-sm text-label-sm text-primary w-5 text-right select-none font-mono">03</span>
+<p class="flex-1"><strong class="font-semibold text-on-surface">Jumlah:</strong> <span class="text-primary font-medium">Rp 250.000,00</span></p>
+</div>
+<div class="flex items-start gap-3">
+<span class="font-label-sm text-label-sm text-primary w-5 text-right select-none font-mono">04</span>
+<p class="flex-1"><strong class="font-semibold text-on-surface">Tujuan:</strong> <span class="text-on-surface-variant">BCA 8830192841 - Toko Buku Berkah</span></p>
+</div>
+<div class="flex items-start gap-3">
+<span class="font-label-sm text-label-sm text-primary w-5 text-right select-none font-mono">05</span>
+<p class="flex-1"><strong class="font-semibold text-on-surface">No. Referensi:</strong> <span class="text-on-surface-variant font-mono">TRX-20241024-99482</span></p>
+</div>
+</div>
+<!-- Quick Action Interactive Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto py-1">
+<button class="min-h-[44px] px-4 rounded-full bg-surface-container-high border border-outline-variant/40 text-on-surface font-label-md text-label-md flex items-center gap-1.5 whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">send</span>
+<span>Share Text</span>
+</button>
+<button class="min-h-[44px] px-4 rounded-full bg-surface-container-high border border-outline-variant/40 text-on-surface font-label-md text-label-md flex items-center gap-1.5 whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">note_add</span>
+<span>Export as Note</span>
+</button>
+<button class="min-h-[44px] px-4 rounded-full bg-surface-container-high border border-outline-variant/40 text-on-surface font-label-md text-label-md flex items-center gap-1.5 whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">label</span>
+<span>Categorize</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Friendly Domestic Reassurance Footer Note -->
+<div class="flex items-center justify-center gap-2 py-space-sm text-on-surface-variant text-center">
+<span class="material-symbols-outlined text-[18px] text-primary">bookmark</span>
+<span class="font-body-sm text-body-sm">Saved locally &amp; indexed in your Personal Ledger</span>
+</div>
+</div>
+</div>
+<script>
+  function setMode(mode) {
+    const originalBtn = document.getElementById('toggle-original');
+    const highlightBtn = document.getElementById('toggle-highlight');
+    const highlights = [1, 2, 3, 4, 5].map(id => document.getElementById('hl-' + id));
+
+    if (mode === 'original') {
+      originalBtn.classList.remove('text-on-surface-variant');
+      originalBtn.classList.add('bg-surface-container-high', 'text-primary', 'shadow-sm');
+
+      highlightBtn.classList.remove('bg-surface-container-high', 'text-primary', 'shadow-sm');
+      highlightBtn.classList.add('text-on-surface-variant');
+
+      highlights.forEach(el => {
+        if (el) {
+          el.classList.remove('bg-primary-container/25', 'bg-primary-container/20', 'text-primary', 'border', 'border-primary/30', 'border-primary/25');
+          el.classList.add('bg-transparent', 'text-on-surface');
+        }
+      });
+    } else {
+      highlightBtn.classList.remove('text-on-surface-variant');
+      highlightBtn.classList.add('bg-surface-container-high', 'text-primary', 'shadow-sm');
+
+      originalBtn.classList.remove('bg-surface-container-high', 'text-primary', 'shadow-sm');
+      originalBtn.classList.add('text-on-surface-variant');
+
+      highlights.forEach((el, idx) => {
+        if (el) {
+          el.classList.remove('bg-transparent', 'text-on-surface');
+          if (idx === 3 || idx === 4) {
+            el.classList.add('bg-primary-container/20', 'border', 'border-primary/25');
+          } else {
+            el.classList.add('bg-primary-container/25', 'text-primary', 'border', 'border-primary/30');
+          }
+        }
+      });
+    }
+  }
+
+  function copyFullTranscribe() {
+    const fullText = "m-Transfer Berhasil\n24 Okt 2024, 14:19:42 WIB\nRp 250.000\nBCA 8830192841 - Toko Buku Berkah\nTRX-20241024-99482";
+    navigator.clipboard?.writeText(fullText);
+    const label = document.getElementById('copy-btn-label');
+    if (label) {
+      const orig = label.innerText;
+      label.innerText = "Berhasil Disalin!";
+      setTimeout(() => { label.innerText = orig; }, 2200);
+    }
+  }
+</script></main>
+</body></html>

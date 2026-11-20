@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-background": "#1e1b18", "background": "#fff8f4", "primary": "#a43716", "primary-fixed": "#ffdbd1", "secondary-fixed-dim": "#9dd3aa", "on-tertiary-fixed": "#221b0a", "secondary-container": "#b6edc2", "primary-container": "#c54f2c", "on-tertiary-fixed-variant": "#4f4631", "error": "#ba1a1a", "primary-fixed-dim": "#ffb5a0", "inverse-on-surface": "#f7efea", "on-secondary-container": "#3b6d4b", "surface-container": "#f4ece7", "on-secondary-fixed-variant": "#1e5031", "on-error-container": "#93000a", "on-primary": "#ffffff", "surface-variant": "#e8e1dc", "surface-tint": "#a73918", "tertiary-fixed-dim": "#d3c5aa", "surface-container-low": "#faf2ed", "surface-container-highest": "#e8e1dc", "surface-bright": "#fff8f4", "error-container": "#ffdad6", "on-primary-fixed": "#3b0900", "on-secondary-fixed": "#00210e", "secondary-fixed": "#b9efc5", "outline-variant": "#dfc0b7", "tertiary": "#655b45", "inverse-surface": "#33302d", "outline": "#8b716a", "surface": "#fff8f4", "on-primary-fixed-variant": "#862201", "tertiary-container": "#7e735c", "on-tertiary-container": "#fffbff", "on-tertiary": "#ffffff", "inverse-primary": "#ffb5a0", "surface-container-high": "#eee7e2", "secondary": "#376847", "on-error": "#ffffff", "surface-dim": "#e0d9d4", "on-surface-variant": "#58423c", "tertiary-fixed": "#f0e1c5", "on-primary-container": "#fffbff", "on-secondary": "#ffffff", "on-surface": "#1e1b18", "surface-container-lowest": "#ffffff" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "gutter-tablet": "1.5rem", "margin-desktop": "3rem", "space-sm": "0.5rem", "margin-tablet": "2rem", "gutter-desktop": "2rem", "space-xl": "2rem", "space-lg": "1.5rem", "margin": "1rem", "space-md": "1rem", "space-xs": "0.25rem", "gutter": "1rem" }, "fontFamily": { "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fff8f4;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs min-w-0"><a class="min-w-[48px] min-h-[48px] flex items-center justify-center text-on-surface hover:text-primary transition-colors -ml-space-xs" href="#back"><span class="material-symbols-outlined text-[24px]">arrow_back</span></a><img alt="Minimalist modern Android app icon logo for SnapScribe in a warm tactile stationery style. Features four thick rounded terracotta-coral viewfinder corner brackets framing a neat white paper note card with a dog-ear fold, three espresso lines of text, and a friendly sage-olive checkmark badge on a warm oat-cream background.. Brand logo. - Primary color: #d95d39
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-full
+" class="h-8 w-auto object-contain hidden sm:block shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrAy0t2lTLFn_GNfnxW-cEp1pW49o-M5yu_4BrySSlBxD9TM2Fy4EDTb612He_L45eRxwKQnlmQ6m2SNpD0_QH_ZmBSM1G74MaC8O0vL5Ck6NRofqwISWl0m1pwF3jMP8VdOWSwaO4IhQkxKVaAXO7IzUL1tDEmSzlv5VCg1ep9VqlRPmGcGbE2mFvcf3cYe9PjyumOc-sNxV6OcrZByOOCEqukJO-ngF7i9Mp9jc-UrkQ"/><h1 class="font-headline-sm text-on-surface truncate min-w-0 pr-space-xs">Folder Detail</h1></div><div class="flex items-center gap-space-xs shrink-0"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-24">
+<!-- Top Folder Context & Actions -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<a class="inline-flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors py-space-xs -ml-space-xs min-h-[48px] px-space-xs" href="#folders">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+<span class="font-label-md text-label-md">Folders</span>
+</a>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Filter berkas" class="min-w-[48px] min-h-[48px] rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+<button class="min-h-[48px] px-space-md rounded-full bg-primary text-on-primary flex items-center gap-space-xs font-label-md text-label-md shadow-sm active:scale-95 transition-transform" type="button">
+<span class="material-symbols-outlined text-[18px]">add_a_photo</span>
+<span>+ Tambah Bukti</span>
+</button>
+</div>
+</div>
+<!-- Folder Summary Notebook Ledger Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm relative overflow-hidden mb-space-md">
+<!-- Subtle tactile notebook spine cue on left edge -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-fixed-dim/60"></div>
+<div class="pl-space-xs">
+<div class="flex items-start justify-between gap-space-sm mb-space-xs">
+<div>
+<span class="inline-flex items-center gap-1 text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">folder_open</span>
+            Buku Catatan Pengeluaran
+          </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Struk belanja &amp; tagihan bulanan • 412 slips
+          </p>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm flex items-center gap-1 shrink-0">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+          Terarsip Rapi
+        </span>
+</div>
+<!-- Financial Total Banner -->
+<div class="mt-space-sm p-space-md rounded-DEFAULT bg-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Total Pengeluaran Bulan Ini (Nov 2024)</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-bold tracking-tight">Rp 3.840.000</span>
+</div>
+<div class="w-11 h-11 rounded-full bg-primary-fixed flex items-center justify-center text-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+</div>
+</div>
+</div>
+<!-- In-folder Search Bar -->
+<div class="relative w-full mb-space-md">
+<div class="absolute inset-y-0 left-0 pl-space-md flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="w-full min-h-[52px] pl-12 pr-space-md py-space-sm bg-surface-container-lowest rounded-DEFAULT text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md shadow-sm outline-none focus:bg-surface-container-low transition-all" placeholder="Cari nominal, toko, atau item belanja..." type="search"/>
+</div>
+<!-- Quick Filter Chips (Scrollable Horizontal) -->
+<div class="w-full flex items-center gap-space-xs overflow-x-auto pb-space-sm -mx-margin px-margin scrollbar-none mb-space-md">
+<button class="min-h-[48px] px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap shadow-sm shrink-0 flex items-center gap-1.5" type="button">
+<span>Semua</span>
+<span class="px-1.5 py-0.5 rounded-full bg-white/20 text-label-sm text-white">412</span>
+</button>
+<button class="min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm shrink-0 flex items-center gap-1.5 hover:bg-surface-container transition-colors" type="button">
+<span>Superindo</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-variant text-label-sm text-on-surface-variant">18</span>
+</button>
+<button class="min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm shrink-0 flex items-center gap-1.5 hover:bg-surface-container transition-colors" type="button">
+<span>BCA &amp; Transfer</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-variant text-label-sm text-on-surface-variant">34</span>
+</button>
+<button class="min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm shrink-0 flex items-center gap-1.5 hover:bg-surface-container transition-colors" type="button">
+<span>Listrik PLN</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-variant text-label-sm text-on-surface-variant">6</span>
+</button>
+<button class="min-h-[48px] px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm shrink-0 flex items-center gap-1.5 hover:bg-surface-container transition-colors" type="button">
+<span>Resto &amp; Kafe</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-variant text-label-sm text-on-surface-variant">52</span>
+</button>
+</div>
+<!-- Transaction Slips Grouped -->
+<div class="flex flex-col gap-space-lg">
+<!-- Group 1: Hari Ini -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+          Hari Ini
+        </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">12 Nov 2024</span>
+</div>
+<!-- Slip 1: Superindo -->
+<article class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm relative overflow-hidden flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container overflow-hidden shrink-0 relative flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Close up photograph of a clean supermarket paper grocery receipt with itemized lines on light wood table, warm natural indoor lighting, cozy tactile editorial aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3LmJThWCSiM9a20GmzV-xgtHAzIvCZZr1IjCI5YYMwnobfcdxRUxsAr9-3zUNIc-Wc5xOiEbqgajlNqcNeLzBPg_4CklOrXGFX6qzVbOg2-msvoZj3SUPKZo6lBcOnghNxeZrE9T34RPLLSXHDzLWG0oQEP65IP0JPUwd3s8ECfttE_FU8dCA2jEi6Snz_6dEl66awtvMCkV7IX4dg5yJdVHgOrtncaaAEFUfAuA3"/>
+<span class="absolute inset-0 bg-primary/5"></span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Superindo Sudirman</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pukul 14:28 WIB • Tunai &amp; QRIS</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">Rp 284.500</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Struk Terverifikasi
+            </span>
+</div>
+</div>
+<!-- OCR Extracted items snippet -->
+<div class="p-space-sm rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[15px]">document_scanner</span>
+<span>Teks Terbaca OCR</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-1">
+            Minyak Sania 2L, Telur Omega 10s, Beras Ramos 5kg
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+            Belanja Dapur
+          </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Lihat detail struk" class="min-h-[48px] px-space-sm text-primary font-label-md text-label-md flex items-center gap-1 hover:underline" type="button">
+<span>Detail Slip</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Slip 2: Roast & Brew Coffee -->
+<article class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm relative overflow-hidden flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container overflow-hidden shrink-0 relative flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Cozy espresso receipt printed slip resting beside ceramic flat white coffee cup and warm pastry on a cafe table, soft warm daylight, film-like grain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAXnCbvz2vawSz5mnsjsM09nIzUdJRNgXb0hTeC6Ja3HYEuR-i3xgRcLy1WfkvlmfCnnNF-G4sUev2_x4b9OoIEVbD-IlVa388KJXatOTespDs7_DyLeTDMtQ4a6Bvxux7HJnU3I6CZViujU1VctU48IXjFNWNUZWaXdZlil-jOnlaa507Owtq_MGar9KKUIAoXhvdbTXAtGl-2EdSkcT6tANaQj9uhSTtK1xlZFZb"/>
+<span class="absolute inset-0 bg-primary/5"></span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Roast &amp; Brew Coffee</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pukul 10:15 WIB • Debit BCA</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">Rp 68.000</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Struk Terverifikasi
+            </span>
+</div>
+</div>
+<!-- OCR Extracted snippet -->
+<div class="p-space-sm rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[15px]">document_scanner</span>
+<span>Teks Terbaca OCR</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-1">
+            Flat White, Butter Croissant
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">
+            Kafe &amp; Hangout
+          </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Lihat detail struk" class="min-h-[48px] px-space-sm text-primary font-label-md text-label-md flex items-center gap-1 hover:underline" type="button">
+<span>Detail Slip</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Group 2: Kemarin -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+          Kemarin
+        </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">11 Nov 2024</span>
+</div>
+<!-- Slip 3: Token Listrik PLN -->
+<article class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm relative overflow-hidden flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-DEFAULT bg-primary-fixed-dim/30 overflow-hidden shrink-0 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">bolt</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Token Listrik PLN</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pukul 21:04 WIB • M-Banking</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">Rp 202.500</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">receipt_long</span>
+              Kuitansi Digital
+            </span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">tag</span>
+              Nomor Token PLN
+            </span>
+<button class="text-primary font-label-sm text-label-sm hover:underline" onclick="navigator.clipboard &amp;&amp; navigator.clipboard.writeText('382910924829')" type="button">
+              Salin
+            </button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-mono tracking-wide">
+            No Meter: 14028391029 • Stroom/Token: 3829-1092-4829
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">
+            Utilitas Rumah
+          </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Lihat detail kuitansi" class="min-h-[48px] px-space-sm text-primary font-label-md text-label-md flex items-center gap-1 hover:underline" type="button">
+<span>Detail Slip</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Slip 4: ShopeePay / Apotek K-24 -->
+<article class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm relative overflow-hidden flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container overflow-hidden shrink-0 relative flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Digital receipt slip on smartphone screen showing green payment confirmation checkmark next to pharmacy medicine boxes on clean notebook desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnD3dCMy3oVDh2dSRvud4knrJ2WQKw3SkcZkz4Xawo7yMXC0P9tc_YOime47HM2qi9KEitpx_CNT7zou418mWCeEMQTJmSacZnmhHbTku9KWnay4UoGeWDR20Vya_CTzp3AVlUTKaLl4EJTlE0Pkgddp3L7Nw8ExsTTTtdQeHuDEOS7i4nkDVCG-k7ddeOK3Wx12h6uItwozoDniRktQh4FzKk07_Q426CLFaAFvwS"/>
+<span class="absolute inset-0 bg-primary/5"></span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">ShopeePay / QRIS Merchant</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pukul 16:40 WIB • QRIS Scan</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">Rp 145.000</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Struk Terverifikasi
+            </span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[15px]">document_scanner</span>
+<span>Teks Terbaca OCR</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-1">
+            Farmasi Apotek K-24 • Paracetamol, Vitamin C
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+            Kesehatan
+          </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Lihat detail struk" class="min-h-[48px] px-space-sm text-primary font-label-md text-label-md flex items-center gap-1 hover:underline" type="button">
+<span>Detail Slip</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Group 3: 08 Nov 2024 -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+          08 Nov 2024
+        </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Jumat Lalu</span>
+</div>
+<!-- Slip 5: SPBU Shell MT Haryono -->
+<article class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm relative overflow-hidden flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-DEFAULT bg-surface-container overflow-hidden shrink-0 relative flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Thermal gas station fuel pump paper receipt printed clearly with fuel liters and price held in hand outdoors with warm sunset lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzAzKoJQoEnv5VwQR836fVxHjb4M6pUMROpn-ksYskA5Z9F0_szgsvMFYa3_I0-xbIIC2V91qW5doMvGC9IJo2G-yNiQArPAHS8C9yDEUT-GmoHxHX5VTWeBum_6nximtJ14zZlKvGYBiE3oZtb8A76nFBUQ8fC9YrLGkVxsNE_ktbtRJ6_6nVJubIPx1TpE8_ACJCLmEAXbqw-pPhEjmOk3FPgJJjzb5Ltk6YEOg5"/>
+<span class="absolute inset-0 bg-primary/5"></span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">SPBU Shell MT Haryono</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pukul 08:30 WIB • Kartu Kredit Mandiri</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-primary font-bold block">Rp 350.000</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Struk Terverifikasi
+            </span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[15px]">document_scanner</span>
+<span>Teks Terbaca OCR</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-1">
+            Shell V-Power 24.1L
+          </p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+            Transportasi &amp; Bensin
+          </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Lihat detail struk" class="min-h-[48px] px-space-sm text-primary font-label-md text-label-md flex items-center gap-1 hover:underline" type="button">
+<span>Detail Slip</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Bottom Floating Sticky Action Bar -->
+<div class="fixed bottom-0 left-0 right-0 z-40 p-margin pb-safe bg-gradient-to-t from-surface via-surface/95 to-transparent flex items-center gap-space-sm justify-between pointer-events-none">
+<div class="pointer-events-auto flex items-center gap-space-sm w-full max-w-lg mx-auto">
+<!-- Quick Export Rekap -->
+<button class="min-h-[52px] px-space-md rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-md flex items-center justify-center gap-space-xs shrink-0 hover:bg-surface-container active:scale-95 transition-transform" title="Ekspor Rekap CSV / Excel" type="button">
+<span class="material-symbols-outlined text-[20px] text-secondary">table_view</span>
+<span class="hidden sm:inline">Ekspor CSV</span>
+</button>
+<!-- Main Sticky CTA: Foto Struk Baru -->
+<button class="flex-1 min-h-[52px] px-space-lg rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-lg flex items-center justify-center gap-space-sm active:scale-98 transition-transform" type="button">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">camera</span>
+<span>+ Foto Struk Baru</span>
+</button>
+</div>
+</div>
+</div></main></body></html>
