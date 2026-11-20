@@ -1,0 +1,5 @@
+{
+  "kotlin.java.home": "/usr/lib/jvm/java-17-openjdk",
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk",
+  "java.home": "/usr/lib/jvm/java-17-openjdk"
+}
