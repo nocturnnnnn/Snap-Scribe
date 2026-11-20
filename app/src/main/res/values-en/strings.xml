@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SnapScribe</string>
+
+    <!-- Navigation & Common -->
+    <string name="nav_snaps">Snaps</string>
+    <string name="nav_folders">Folders</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="fab_snap_photo">Snap Photo</string>
+    <string name="cd_profile_button">Open account profile</string>
+    <string name="cd_app_logo">SnapScribe Logo</string>
+    <string name="cd_clear_search">Clear search query</string>
+    <string name="cd_voice_search">Voice search</string>
+    <string name="cd_toggle_password">Show or hide password</string>
+    <string name="cd_zoom_image">Zoom image</string>
+    <string name="cd_sort_filter">Sort snaps</string>
+    <string name="cd_pro_locked">SnapScribe Pro feature</string>
+
+    <!-- Categories (4 Spec Categories) -->
+    <string name="category_all">All</string>
+    <string name="category_receipts">Receipts</string>
+    <string name="category_codes_links">Codes &amp; Links</string>
+    <string name="category_addresses">Addresses</string>
+    <string name="category_notes">Notes</string>
+
+    <!-- Smart Folder Descriptions -->
+    <string name="folder_desc_receipts">Store receipts, bank transfers &amp; utility bills</string>
+    <string name="folder_desc_codes_links">Wi-Fi passwords, tracking numbers, URLs &amp; OTPs</string>
+    <string name="folder_desc_addresses">Street addresses, map pins &amp; contact cards</string>
+    <string name="folder_desc_notes">Important notes, class schedules &amp; reminders</string>
+
+    <!-- One-Tap Action Chips -->
+    <string name="action_copy_amount">Copy Amount</string>
+    <string name="action_copy_password">Copy Password</string>
+    <string name="action_copy_resi">Copy Resi</string>
+    <string name="action_open_maps">Open Maps</string>
+    <string name="action_open_link">Open Link</string>
+    <string name="action_add_calendar">Add Calendar</string>
+    <string name="action_copy_text">Copy Text</string>
+    <string name="action_copied">Copied ✓</string>
+    <string name="snackbar_copied">Copied to clipboard: %1$s</string>
+    <string name="snackbar_intent_unavailable">No supported app found on this device</string>
+    <string name="snackbar_voice_unavailable">Voice recognition is unavailable on this device</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_badge_vault">Private on-device vault</string>
+    <string name="welcome_headline">Never lose a screenshot again.</string>
+    <string name="welcome_subtitle" formatted="false">Finds transfer slips, Wi-Fi passwords, and addresses automatically—100% offline on your phone.</string>
+    <string name="welcome_feat1_title">Reads text automatically</string>
+    <string name="welcome_feat1_desc">Instantly finds amounts, dates, and account numbers without manual sorting.</string>
+    <string name="welcome_feat2_title">Sorts receipts &amp; codes</string>
+    <string name="welcome_feat2_desc">Organized by clean categories so you find important slips in seconds.</string>
+    <string name="welcome_feat3_title">Private &amp; offline ready</string>
+    <string name="welcome_feat3_desc">Works without an account. Every photo and text scan stays safely on your phone.</string>
+    <string name="welcome_cta_start">Get Started</string>
+    <string name="welcome_skip">Skip for now • 10 seconds to setup</string>
+
+    <!-- Auth & Register -->
+    <string name="auth_badge">Your Digital Notebook</string>
+    <string name="auth_subtitle">Access your saved notes, shopping receipts, and slips in an instant.</string>
+    <string name="auth_card_title">Sign In</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_email_hint">name@email.com</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_password_hint">Enter your password</string>
+    <string name="auth_remember_me">Remember me on this device</string>
+    <string name="auth_sign_in_cta">Sign In to SnapScribe</string>
+    <string name="auth_or_divider">or continue with</string>
+    <string name="auth_google_cta">Continue with Google</string>
+    <string name="auth_offline_cta">Continue in Free Offline Mode</string>
+    <string name="auth_no_account">Don\'t have an account?</string>
+    <string name="auth_register_link">Create Account</string>
+    <string name="auth_footer_privacy">Local encryption &amp; data stay safe on your device.</string>
+
+    <string name="register_title">Create Free Account</string>
+    <string name="register_subtitle">Create a free account to sign in. You stay on the Free plan with no auto-started trial.</string>
+    <string name="register_name_label">Full Name</string>
+    <string name="register_name_hint">e.g. Budi Santoso</string>
+    <string name="register_confirm_password_label">Confirm Password</string>
+    <string name="register_confirm_password_hint">Re-enter password</string>
+    <string name="register_cta">Create Free Account</string>
+    <string name="register_has_account">Already have an account?</string>
+    <string name="register_login_link">Sign In</string>
+
+    <string name="auth_error_name">Name must be at least 2 characters</string>
+    <string name="auth_error_email">Please enter a valid email address</string>
+    <string name="auth_error_password">Password must be at least 6 characters</string>
+    <string name="auth_error_password_mismatch">Passwords do not match</string>
+
+    <!-- Index Setup (Onboarding) -->
+    <string name="setup_title">Choose Folders to Index</string>
+    <string name="setup_subtitle">SnapScribe quietly reads text from your selected folders locally.</string>
+    <string name="setup_privacy_badge" formatted="false">100% On-Device OCR • Zero cloud uploads</string>
+    <string name="setup_cta">Allow Access &amp; Start</string>
+    <string name="setup_footer_hint">You can change indexed folders anytime in Settings.</string>
+
+    <!-- Album Sources -->
+    <string name="album_screenshots_title">Screenshots</string>
+    <string name="album_screenshots_desc">Daily captures &amp; payment confirmations</string>
+    <string name="album_whatsapp_title">WhatsApp Images</string>
+    <string name="album_whatsapp_desc">Bills &amp; receipts shared by family</string>
+    <string name="album_camera_title">Camera Roll</string>
+    <string name="album_camera_desc">Physical receipts snapped on the go</string>
+
+    <!-- Home / Snaps Tab -->
+    <string name="home_title">Your Saved Snaps</string>
+    <plurals name="home_status_ready">
+        <item quantity="one">%1$d ready offline</item>
+        <item quantity="other">%1$d ready offline</item>
+    </plurals>
+    <string name="home_search_placeholder">Search receipts, Wi-Fi, or notes…</string>
+    <string name="home_banner_title">Auto-organizing is active</string>
+    <string name="home_banner_desc">New screenshots are read &amp; sorted into categories locally.</string>
+    <string name="home_empty_title">No snaps in this category</string>
+    <string name="home_empty_desc">Capture a document or change the category filter to view other slips.</string>
+    <string name="home_sort_title">Sort Snaps</string>
+    <string name="home_sort_newest">Newest first</string>
+    <string name="home_sort_oldest">Oldest first</string>
+
+    <!-- Search Tab -->
+    <string name="search_placeholder">Search amounts, stores, passwords, or notes…</string>
+    <string name="search_privacy_badge" formatted="false">100% On-Device OCR • Personal data stays on device</string>
+    <string name="search_recent_title">Recent Searches</string>
+    <string name="search_clear_history">Clear History</string>
+    <string name="search_results_title">OCR &amp; Detected Text Results</string>
+    <plurals name="search_found_count">
+        <item quantity="one">%1$d Found</item>
+        <item quantity="other">%1$d Found</item>
+    </plurals>
+    <string name="search_ocr_detected_label">Extracted OCR Text</string>
+    <string name="search_empty_title">No matches for “%1$s”</string>
+    <string name="search_empty_desc">Try another keyword such as an amount “250.000”, store name, or courier code.</string>
+    <string name="search_tips_title">Smart Search Tips</string>
+    <string name="search_tips_desc">Type amounts like “50.000”, tracking numbers, store names, or passwords. SnapScribe searches across all photo text instantly offline.</string>
+
+    <!-- Snap Detail & Zoom -->
+    <string name="detail_title">Detail</string>
+    <string name="detail_mode_original">Original</string>
+    <string name="detail_mode_highlight">Highlight Text</string>
+    <string name="detail_smart_detection">SMART DETECTION</string>
+    <string name="detail_verified_badge" formatted="false">100% Extracted</string>
+    <string name="detail_all_extracted">All Extracted Text</string>
+    <string name="detail_copy_all">Copy All</string>
+    <string name="detail_share_text">Share Text</string>
+    <string name="detail_change_category">Change Category</string>
+    <string name="detail_footer_saved">Saved locally &amp; indexed in your on-device vault</string>
+    <string name="detail_delete_title">Delete This Snap?</string>
+    <string name="detail_delete_message">This snap will be removed from SnapScribe\'s local index.</string>
+    <string name="detail_category_sheet_title">Choose Category</string>
+    <string name="detail_category_sheet_subtitle">Move this snap to the most accurate category:</string>
+    <string name="zoom_hint">Pinch to zoom • Double-tap to reset</string>
+
+    <!-- Folders & Folder Detail -->
+    <string name="folders_title">Folders &amp; Collections</string>
+    <string name="folders_subtitle">Organized slips, receipts &amp; quick notes</string>
+    <string name="folders_add_button">+ Folder</string>
+    <string name="folders_filter_hint">Filter folders or tags…</string>
+    <plurals name="folders_status_summary">
+        <item quantity="one">4 Smart Folders • %1$d slip saved</item>
+        <item quantity="other">4 Smart Folders • %1$d slips saved</item>
+    </plurals>
+    <string name="folders_status_offline" formatted="false">100% Offline</string>
+    <string name="folders_smart_section">Smart Folders</string>
+    <string name="folders_auto_sorted">Auto-sorted</string>
+    <string name="folders_my_collections">My Collections</string>
+    <string name="folders_pro_badge">PRO</string>
+    <string name="folders_pro_upsell_title">Unlimited Custom Folders</string>
+    <string name="folders_pro_upsell_desc">Organize project receipts, family warranties, or trips into dedicated custom folders with SnapScribe Pro.</string>
+    <string name="folders_pro_upsell_cta">Explore SnapScribe Pro</string>
+    <string name="folders_tip_title">Archive Organization Tip</string>
+    <string name="folders_tip_desc">Every photo is automatically grouped into the 4 Smart Folders without duplicating storage on your phone.</string>
+    <plurals name="folders_slips_count">
+        <item quantity="one">%1$d slip</item>
+        <item quantity="other">%1$d slips</item>
+    </plurals>
+    <string name="folders_nov_total">This Month:</string>
+    <string name="folders_latest_label">Latest:</string>
+
+    <string name="folder_detail_total_label">TOTAL EXPENSES THIS MONTH</string>
+    <string name="folder_detail_count_label">TOTAL INDEXED SLIPS</string>
+    <string name="folder_detail_search_hint">Search amount, store, or keyword…</string>
+    <string name="folder_detail_export_pro">Export PDF / Excel</string>
+    <string name="folder_detail_add_photo">+ Snap New</string>
+    <string name="folder_detail_view_slip">View Slip ›</string>
+    <string name="folder_detail_export_done">%1$s report exported (Pro Demo)</string>
+    <string name="group_today">Today</string>
+    <string name="group_yesterday">Yesterday</string>
+
+    <!-- Camera Capture -->
+    <string name="camera_title">Scan Document</string>
+    <string name="camera_badge_ocr">On-Device OCR</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">On</string>
+    <string name="camera_flash_off">Off</string>
+    <string name="camera_grid">Grid</string>
+    <string name="camera_detect_hint">Receipt detected • Hold steady</string>
+    <string name="camera_mode_doc">Document / Receipt</string>
+    <string name="camera_mode_handwritten">Handwritten Note</string>
+    <string name="camera_mode_wifi">Wi-Fi &amp; Code</string>
+    <string name="camera_gallery">Gallery</string>
+    <string name="camera_shutter_cd">Capture document photo</string>
+    <string name="camera_single_slip">Single Slip</string>
+    <string name="camera_multi_slip">Multi Slip</string>
+    <string name="camera_ledger_ready">Smart Ledger Parsing Ready</string>
+    <string name="camera_ledger_desc">Extracts totals, dates &amp; passwords automatically</string>
+    <string name="camera_processing">Reading text locally…</string>
+    <string name="camera_gallery_demo">Gallery import opens the photo picker in the full build</string>
+
+    <!-- Settings Tab -->
+    <string name="settings_badge">Mindful &amp; Calm</string>
+    <string name="settings_title">Settings &amp; Comfort</string>
+    <string name="settings_subtitle">Make SnapScribe feel clear and comfortable for your eyes.</string>
+
+    <string name="settings_reading_title">Reading Comfort</string>
+    <string name="settings_reading_desc">Adjust legibility for effortless viewing</string>
+    <string name="settings_scale_label">Display Scale</string>
+    <string name="settings_scale_standard">Standard</string>
+    <string name="settings_scale_large">Large</string>
+    <string name="settings_scale_xl">Extra Large</string>
+    <string name="settings_preview_label">Live Text Preview</string>
+    <string name="settings_preview_sample_title">BCA Transfer – Rp 250.000</string>
+    <string name="settings_preview_sample_body">Toko Buku Berkah • Ref #8942011 • Wi-Fi Pass: kopi_hangat_2024</string>
+    <string name="settings_high_contrast_title">High Contrast Text</string>
+    <string name="settings_high_contrast_desc">Stronger ink contrast meeting WCAG AAA guidelines</string>
+
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_language_desc">Choose interface language</string>
+    <string name="settings_lang_system">System</string>
+    <string name="settings_lang_id">Indonesia</string>
+    <string name="settings_lang_en">English</string>
+
+    <string name="settings_albums_title">Albums to Index</string>
+    <string name="settings_albums_desc">SnapScribe quietly sorts receipts &amp; slips locally</string>
+
+    <string name="settings_theme_title">Notebook Theme</string>
+    <string name="settings_theme_desc">Choose your preferred paper palette</string>
+    <string name="settings_theme_light">Warm Light</string>
+    <string name="settings_theme_light_sub">Cream Paper</string>
+    <string name="settings_theme_dark">Espresso</string>
+    <string name="settings_theme_dark_sub">Night Journal</string>
+    <string name="settings_theme_system">Match Phone</string>
+    <string name="settings_theme_system_sub">System Auto</string>
+
+    <string name="settings_pro_title">SnapScribe Pro</string>
+    <string name="settings_pro_desc_free">Encrypted cloud backup, PDF/Excel export, handwritten OCR &amp; smart expiry alerts.</string>
+    <string name="settings_pro_desc_active">Pro subscription active (%1$s). Manage your plan here.</string>
+    <string name="settings_pro_cta_free">Explore Pro &amp; 7-Day Free Trial</string>
+    <string name="settings_pro_cta_active">Manage SnapScribe Pro</string>
+
+    <string name="settings_storage_title">Storage &amp; Cache</string>
+    <string name="settings_storage_usage">%1$d MB local index cache on this device</string>
+    <string name="settings_clear_cache">Clear Local Cache</string>
+    <string name="settings_clear_cache_title">Clear Local Cache?</string>
+    <string name="settings_clear_cache_msg">Temporary image cache will be cleared. Original photos in your gallery will not be touched.</string>
+    <string name="settings_cache_cleared">Local cache cleared</string>
+
+    <string name="settings_privacy_title" formatted="false">100% Private Ledger</string>
+    <string name="settings_privacy_badge">Device-Only</string>
+    <string name="settings_privacy_body">SnapScribe runs OCR locally inside your phone. Your receipts, account numbers, and Wi-Fi passwords never leave your device in core offline mode.</string>
+    <string name="settings_privacy_chip1">Zero Data Uploads</string>
+    <string name="settings_privacy_chip2">Local Vault Indexed</string>
+    <string name="settings_footer_version">SnapScribe v1.0.0 • Offline Index Healthy</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Account Profile</string>
+    <string name="profile_guest_badge">FREE OFFLINE MODE</string>
+    <string name="profile_guest_title">You\'re in Free Offline Mode</string>
+    <string name="profile_guest_desc" formatted="false">All photos and OCR text stay 100% on this phone. Sign in or create a free account anytime if you want Pro cloud backup.</string>
+    <string name="profile_guest_cta">Sign In / Create Free Account</string>
+    <string name="profile_plan_free">Free Account Plan</string>
+    <string name="profile_plan_pro">SnapScribe Pro Active</string>
+    <string name="profile_stat_snaps">Saved Slips</string>
+    <string name="profile_stat_folders">Active Folders</string>
+    <string name="profile_stat_month">This Month</string>
+    <string name="profile_security_section">Personal Info &amp; Security</string>
+    <string name="profile_email_label">Email</string>
+    <string name="profile_verified_pill">Verified</string>
+    <string name="profile_phone_label">Phone Number</string>
+    <string name="profile_biometric_title">Biometric App Lock</string>
+    <string name="profile_biometric_desc">Require fingerprint / face unlock when opening SnapScribe</string>
+    <string name="profile_subscription_section">Subscription Status</string>
+    <string name="profile_upgrade_cta">Upgrade to Pro</string>
+    <string name="profile_storage_section">Local Storage</string>
+    <string name="profile_storage_desc">%1$d MB local index cache stored safely on device</string>
+    <string name="profile_sign_out">Sign Out</string>
+    <string name="profile_sign_out_title">Sign Out of Account?</string>
+    <string name="profile_sign_out_msg">You will return to the welcome screen. Your gallery photos remain untouched.</string>
+    <string name="profile_delete_local">Delete Local Data</string>
+    <string name="profile_delete_local_title">Delete All Local Data?</string>
+    <string name="profile_delete_local_msg">All local OCR index data inside SnapScribe will be cleared (original gallery photos stay safe).</string>
+    <string name="profile_local_deleted">Local index data cleared</string>
+
+    <!-- Pro / Paywall Screen -->
+    <string name="pro_title">SnapScribe Pro</string>
+    <string name="pro_hero_badge">UPGRADE YOUR ARCHIVE</string>
+    <string name="pro_hero_title">Cloud Backup, Export &amp; Smart Alerts</string>
+    <string name="pro_hero_subtitle">SnapScribe\'s core offline features remain free forever. Pro is built for power users and families.</string>
+    <string name="pro_billing_monthly">Monthly</string>
+    <string name="pro_billing_yearly">Yearly</string>
+    <string name="pro_price_monthly">Rp 19.000 / month</string>
+    <string name="pro_price_yearly">Rp 149.000 / year</string>
+    <string name="pro_yearly_save">Save 35%</string>
+    <string name="pro_compare_title">Transparent Plan Comparison</string>
+    <string name="pro_col_feature">Feature</string>
+    <string name="pro_col_free">Free</string>
+    <string name="pro_col_pro">Pro</string>
+
+    <string name="pro_feat_ocr">On-Device OCR &amp; Camera Scan</string>
+    <string name="pro_feat_categories">4 Automatic Categories</string>
+    <string name="pro_feat_search">Instant Full-Text &amp; Voice Search</string>
+    <string name="pro_feat_actions">One-Tap Copy &amp; Action Chips</string>
+    <string name="pro_feat_a11y">Large Text &amp; High Contrast Accessibility</string>
+    <string name="pro_feat_cloud">Encrypted Cloud Backup &amp; Sync</string>
+    <string name="pro_feat_export">Export Receipts (PDF &amp; Excel)</string>
+    <string name="pro_feat_expiry">Smart Expiry &amp; Due Date Alerts</string>
+    <string name="pro_feat_handwritten">Handwritten OCR &amp; Custom Folders</string>
+    <string name="pro_feat_early">Early Access to New Features</string>
+
+    <string name="pro_trial_title">Risk-Free 7-Day Free Trial</string>
+    <string name="pro_trial_day0">Today: Rp 0 — Unlock every Pro feature immediately.</string>
+    <string name="pro_trial_day5">Day 5: Automatic reminder before your trial ends.</string>
+    <string name="pro_trial_day7">Day 7: Billing starts based on your selected plan.</string>
+    <string name="pro_trial_reassurance">Cancel anytime. Local files and indexes on your phone are never deleted.</string>
+
+    <string name="pro_cta_guest">Sign In to Subscribe</string>
+    <string name="pro_cta_trial">Start 7-Day Free Trial</string>
+    <string name="pro_cta_subscribe">Subscribe %1$s</string>
+    <string name="pro_active_title">SnapScribe Pro Active</string>
+    <string name="pro_active_trial_badge">7-Day Free Trial</string>
+    <string name="pro_active_renews">Automatically renews on %1$s</string>
+    <string name="pro_cancel_demo">Cancel Subscription</string>
+    <string name="pro_trial_started_msg">7-day free trial activated! Reminder scheduled for Day 5.</string>
+    <string name="pro_subscribed_msg">SnapScribe Pro subscription activated.</string>
+    <string name="pro_cancelled_msg">Subscription cancelled. Returned to Free Account; local files remain safe.</string>
+</resources>

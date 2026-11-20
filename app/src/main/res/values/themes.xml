@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SnapScribe" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/window_bg_warm</item>
+    </style>
+
+    <style name="Theme.SnapScribe.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/window_bg_warm</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_snapscribe_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.SnapScribe</item>
+    </style>
+
+</resources>

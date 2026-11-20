@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SnapScribe</string>
+
+    <!-- Navigasi & Umum -->
+    <string name="nav_snaps">Snaps</string>
+    <string name="nav_folders">Folder</string>
+    <string name="nav_search">Cari</string>
+    <string name="nav_settings">Setelan</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_confirm">Konfirmasi</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_share">Bagikan</string>
+    <string name="fab_snap_photo">Foto Slip</string>
+    <string name="cd_profile_button">Buka profil akun</string>
+    <string name="cd_app_logo">Logo SnapScribe</string>
+    <string name="cd_clear_search">Hapus teks pencarian</string>
+    <string name="cd_voice_search">Pencarian suara</string>
+    <string name="cd_toggle_password">Tampilkan atau sembunyikan kata sandi</string>
+    <string name="cd_zoom_image">Perbesar gambar</string>
+    <string name="cd_sort_filter">Urutkan snap</string>
+    <string name="cd_pro_locked">Fitur SnapScribe Pro</string>
+
+    <!-- Kategori (4 Kategori Spesifikasi) -->
+    <string name="category_all">Semua</string>
+    <string name="category_receipts">Receipts</string>
+    <string name="category_codes_links">Codes &amp; Links</string>
+    <string name="category_addresses">Addresses</string>
+    <string name="category_notes">Notes</string>
+
+    <!-- Deskripsi Smart Folders -->
+    <string name="folder_desc_receipts">Struk belanja, bukti transfer &amp; tagihan</string>
+    <string name="folder_desc_codes_links">Sandi Wi-Fi, nomor resi, URL &amp; OTP</string>
+    <string name="folder_desc_addresses">Alamat lokasi, peta &amp; kartu nama</string>
+    <string name="folder_desc_notes">Catatan penting, jadwal kuliah &amp; pengingat</string>
+
+    <!-- Aksi Cepat (One-Tap Action Chips) -->
+    <string name="action_copy_amount">Salin Nominal</string>
+    <string name="action_copy_password">Salin Sandi</string>
+    <string name="action_copy_resi">Salin Resi</string>
+    <string name="action_open_maps">Buka Peta</string>
+    <string name="action_open_link">Buka Tautan</string>
+    <string name="action_add_calendar">Tambah Kalender</string>
+    <string name="action_copy_text">Salin Teks</string>
+    <string name="action_copied">Tersalin ✓</string>
+    <string name="snackbar_copied">Disalin ke papan klip: %1$s</string>
+    <string name="snackbar_intent_unavailable">Tidak ada aplikasi pendukung di perangkat ini</string>
+    <string name="snackbar_voice_unavailable">Pengenalan suara tidak tersedia di perangkat ini</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_badge_vault">Brankas privat di perangkat</string>
+    <string name="welcome_headline">Jangan kehilangan screenshot lagi.</string>
+    <string name="welcome_subtitle" formatted="false">Temukan struk transfer, sandi Wi-Fi, dan alamat secara otomatis—100% offline di HP Anda.</string>
+    <string name="welcome_feat1_title">Membaca teks otomatis</string>
+    <string name="welcome_feat1_desc">Langsung temukan nominal, tanggal, dan nomor rekening tanpa perlu sortir manual.</string>
+    <string name="welcome_feat2_title">Kelompokkan struk &amp; kode</string>
+    <string name="welcome_feat2_desc">Tersusun rapi ke dalam kategori agar slip penting ketemu dalam hitungan detik.</string>
+    <string name="welcome_feat3_title">Privat &amp; siap offline</string>
+    <string name="welcome_feat3_desc">Tanpa akun pun bisa. Semua foto dan pembacaan teks tetap aman di HP Anda.</string>
+    <string name="welcome_cta_start">Mulai</string>
+    <string name="welcome_skip">Lewati untuk sekarang • Setup 10 detik</string>
+
+    <!-- Auth & Register -->
+    <string name="auth_badge">Buku Catatan Digital Anda</string>
+    <string name="auth_subtitle">Buka catatan, struk belanja, dan slip tersimpan Anda dalam sekejap.</string>
+    <string name="auth_card_title">Masuk Akun</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_email_hint">nama@email.com</string>
+    <string name="auth_password_label">Kata Sandi</string>
+    <string name="auth_password_hint">Masukkan kata sandi</string>
+    <string name="auth_remember_me">Ingat saya di perangkat ini</string>
+    <string name="auth_sign_in_cta">Masuk ke SnapScribe</string>
+    <string name="auth_or_divider">atau masuk dengan</string>
+    <string name="auth_google_cta">Masuk dengan Google</string>
+    <string name="auth_offline_cta">Lanjutkan Mode Offline Gratis</string>
+    <string name="auth_no_account">Belum punya akun?</string>
+    <string name="auth_register_link">Daftar Sekarang</string>
+    <string name="auth_footer_privacy">Enkripsi lokal &amp; data tetap aman di perangkat Anda.</string>
+
+    <string name="register_title">Buat Akun Gratis</string>
+    <string name="register_subtitle">Buat akun gratis untuk masuk. Anda tetap di paket Free tanpa aktivasi trial otomatis.</string>
+    <string name="register_name_label">Nama Lengkap</string>
+    <string name="register_name_hint">Contoh: Budi Santoso</string>
+    <string name="register_confirm_password_label">Konfirmasi Kata Sandi</string>
+    <string name="register_confirm_password_hint">Ulangi kata sandi</string>
+    <string name="register_cta">Buat Akun Gratis</string>
+    <string name="register_has_account">Sudah punya akun?</string>
+    <string name="register_login_link">Masuk</string>
+
+    <string name="auth_error_name">Nama minimal 2 karakter</string>
+    <string name="auth_error_email">Masukkan alamat email yang valid</string>
+    <string name="auth_error_password">Kata sandi minimal 6 karakter</string>
+    <string name="auth_error_password_mismatch">Konfirmasi kata sandi tidak cocok</string>
+
+    <!-- Index Setup (Onboarding) -->
+    <string name="setup_title">Pilih Folder untuk Dipindai</string>
+    <string name="setup_subtitle">SnapScribe diam-diam membaca teks dari folder pilihan di perangkat Anda.</string>
+    <string name="setup_privacy_badge" formatted="false">100% On-Device OCR • Tanpa unggah ke cloud</string>
+    <string name="setup_cta">Izinkan Akses &amp; Mulai</string>
+    <string name="setup_footer_hint">Anda dapat mengubah folder yang dipindai kapan saja di menu Setelan.</string>
+
+    <!-- Album Sources -->
+    <string name="album_screenshots_title">Screenshots</string>
+    <string name="album_screenshots_desc">Tangkapan layar &amp; bukti transfer harian</string>
+    <string name="album_whatsapp_title">WhatsApp Images</string>
+    <string name="album_whatsapp_desc">Struk &amp; foto yang dibagikan keluarga</string>
+    <string name="album_camera_title">Camera Roll</string>
+    <string name="album_camera_desc">Foto struk fisik langsung dari kamera</string>
+
+    <!-- Home / Snaps Tab -->
+    <string name="home_title">Snap Tersimpan</string>
+    <plurals name="home_status_ready">
+        <item quantity="one">%1$d siap offline</item>
+        <item quantity="other">%1$d siap offline</item>
+    </plurals>
+    <string name="home_search_placeholder">Cari struk, Wi-Fi, atau catatan…</string>
+    <string name="home_banner_title">Auto-organizing aktif</string>
+    <string name="home_banner_desc">Screenshot baru otomatis dibaca &amp; masuk kategori secara lokal.</string>
+    <string name="home_empty_title">Belum ada snap di kategori ini</string>
+    <string name="home_empty_desc">Foto dokumen atau ubah filter kategori untuk melihat arsip lainnya.</string>
+    <string name="home_sort_title">Urutkan Arsip</string>
+    <string name="home_sort_newest">Terbaru terlebih dahulu</string>
+    <string name="home_sort_oldest">Terlama terlebih dahulu</string>
+
+    <!-- Search Tab -->
+    <string name="search_placeholder">Cari angka, toko, sandi, atau catatan…</string>
+    <string name="search_privacy_badge" formatted="false">100% On-Device OCR • Data pribadi aman di perangkat</string>
+    <string name="search_recent_title">Pencarian Terakhir</string>
+    <string name="search_clear_history">Hapus Riwayat</string>
+    <string name="search_results_title">Hasil OCR &amp; Teks Terdeteksi</string>
+    <plurals name="search_found_count">
+        <item quantity="one">%1$d Ditemukan</item>
+        <item quantity="other">%1$d Ditemukan</item>
+    </plurals>
+    <string name="search_ocr_detected_label">Teks Terbaca OCR</string>
+    <string name="search_empty_title">Tidak ada hasil untuk “%1$s”</string>
+    <string name="search_empty_desc">Coba kata kunci lain seperti nominal “250.000”, nama bank, atau kurir.</string>
+    <string name="search_tips_title">Tips Pencarian Cerdas</string>
+    <string name="search_tips_desc">Ketikkan angka seperti “50.000”, kode resi, nama toko, atau kata sandi. SnapScribe mencari di seluruh teks gambar secara instan tanpa internet.</string>
+
+    <!-- Snap Detail & Zoom -->
+    <string name="detail_title">Detail</string>
+    <string name="detail_mode_original">Original</string>
+    <string name="detail_mode_highlight">Sorot Teks</string>
+    <string name="detail_smart_detection">DETEKSI PINTAR</string>
+    <string name="detail_verified_badge" formatted="false">100% Terekstrak</string>
+    <string name="detail_all_extracted">Semua Teks Terekstrak</string>
+    <string name="detail_copy_all">Salin Semua</string>
+    <string name="detail_share_text">Bagikan Teks</string>
+    <string name="detail_change_category">Ubah Kategori</string>
+    <string name="detail_footer_saved">Tersimpan lokal &amp; terindeks di brankas perangkat Anda</string>
+    <string name="detail_delete_title">Hapus Snap Ini?</string>
+    <string name="detail_delete_message">Snap ini akan dihapus dari indeks lokal SnapScribe.</string>
+    <string name="detail_category_sheet_title">Pilih Kategori</string>
+    <string name="detail_category_sheet_subtitle">Pindahkan snap ini ke kategori yang paling sesuai:</string>
+    <string name="zoom_hint">Cubit untuk memperbesar • Ketuk dua kali untuk reset</string>
+
+    <!-- Folders & Folder Detail -->
+    <string name="folders_title">Folder &amp; Koleksi</string>
+    <string name="folders_subtitle">Slip, struk &amp; catatan yang tertata rapi</string>
+    <string name="folders_add_button">+ Folder</string>
+    <string name="folders_filter_hint">Filter folder atau tag…</string>
+    <plurals name="folders_status_summary">
+        <item quantity="one">4 Smart Folders • %1$d slip tersimpan</item>
+        <item quantity="other">4 Smart Folders • %1$d slip tersimpan</item>
+    </plurals>
+    <string name="folders_status_offline" formatted="false">100% Offline</string>
+    <string name="folders_smart_section">Smart Folders</string>
+    <string name="folders_auto_sorted">Sortir Otomatis</string>
+    <string name="folders_my_collections">Koleksi Saya</string>
+    <string name="folders_pro_badge">PRO</string>
+    <string name="folders_pro_upsell_title">Folder Kustom Tanpa Batas</string>
+    <string name="folders_pro_upsell_desc">Kelompokkan struk proyek, garansi keluarga, atau perjalanan di satu folder khusus dengan SnapScribe Pro.</string>
+    <string name="folders_pro_upsell_cta">Lihat SnapScribe Pro</string>
+    <string name="folders_tip_title">Tips Mengelompokkan Arsip</string>
+    <string name="folders_tip_desc">Semua foto otomatis masuk ke 4 Smart Folders tanpa memakan memori ganda di penyimpanan HP Anda.</string>
+    <plurals name="folders_slips_count">
+        <item quantity="one">%1$d slip</item>
+        <item quantity="other">%1$d slip</item>
+    </plurals>
+    <string name="folders_nov_total">Total Bulan Ini:</string>
+    <string name="folders_latest_label">Terbaru:</string>
+
+    <string name="folder_detail_total_label">TOTAL PENGELUARAN BULAN INI</string>
+    <string name="folder_detail_count_label">TOTAL SLIP TERINDEKS</string>
+    <string name="folder_detail_search_hint">Cari nominal, toko, atau kata kunci…</string>
+    <string name="folder_detail_export_pro">Ekspor PDF / Excel</string>
+    <string name="folder_detail_add_photo">+ Foto Baru</string>
+    <string name="folder_detail_view_slip">Detail Slip ›</string>
+    <string name="folder_detail_export_done">Laporan %1$s berhasil diekspor (Demo Pro)</string>
+    <string name="group_today">Hari Ini</string>
+    <string name="group_yesterday">Kemarin</string>
+
+    <!-- Camera Capture -->
+    <string name="camera_title">Pindai Dokumen</string>
+    <string name="camera_badge_ocr">On-Device OCR</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Nyala</string>
+    <string name="camera_flash_off">Mati</string>
+    <string name="camera_grid">Grid</string>
+    <string name="camera_detect_hint">Struk terdeteksi • Tahan stabil</string>
+    <string name="camera_mode_doc">Dokumen / Struk</string>
+    <string name="camera_mode_handwritten">Tulisan Tangan</string>
+    <string name="camera_mode_wifi">Wi-Fi &amp; Kode</string>
+    <string name="camera_gallery">Galeri</string>
+    <string name="camera_shutter_cd">Ambil foto dokumen</string>
+    <string name="camera_single_slip">Satu Slip</string>
+    <string name="camera_multi_slip">Multi Slip</string>
+    <string name="camera_ledger_ready">Pembacaan Cerdas Siap</string>
+    <string name="camera_ledger_desc">Deteksi nominal, tanggal, &amp; kata sandi otomatis</string>
+    <string name="camera_processing">Membaca teks secara lokal…</string>
+    <string name="camera_gallery_demo">Impor galeri akan membuka pemilih foto di versi penuh</string>
+
+    <!-- Settings Tab -->
+    <string name="settings_badge">Nyaman &amp; Jelas</string>
+    <string name="settings_title">Setelan &amp; Aksesibilitas</string>
+    <string name="settings_subtitle">Sesuaikan tampilan SnapScribe agar nyaman dibaca siapa saja.</string>
+
+    <string name="settings_reading_title">Kenyamanan Membaca</string>
+    <string name="settings_reading_desc">Atur ukuran teks agar mudah dibaca tanpa memicing</string>
+    <string name="settings_scale_label">Ukuran Teks</string>
+    <string name="settings_scale_standard">Standar</string>
+    <string name="settings_scale_large">Besar</string>
+    <string name="settings_scale_xl">Ekstra Besar</string>
+    <string name="settings_preview_label">Pratinjau Teks Langsung</string>
+    <string name="settings_preview_sample_title">Transfer BCA – Rp 250.000</string>
+    <string name="settings_preview_sample_body">Toko Buku Berkah • Ref #8942011 • Sandi Wi-Fi: kopi_hangat_2024</string>
+    <string name="settings_high_contrast_title">Teks Kontras Tinggi</string>
+    <string name="settings_high_contrast_desc">Warna tinta lebih pekat sesuai standar WCAG AAA</string>
+
+    <string name="settings_language_title">Bahasa Aplikasi</string>
+    <string name="settings_language_desc">Pilih bahasa antarmuka</string>
+    <string name="settings_lang_system">Sistem</string>
+    <string name="settings_lang_id">Indonesia</string>
+    <string name="settings_lang_en">English</string>
+
+    <string name="settings_albums_title">Album yang Dipindai</string>
+    <string name="settings_albums_desc">SnapScribe menyortir slip secara lokal dari folder ini</string>
+
+    <string name="settings_theme_title">Tema Buku Catatan</string>
+    <string name="settings_theme_desc">Pilih palet warna kertas favorit Anda</string>
+    <string name="settings_theme_light">Warm Light</string>
+    <string name="settings_theme_light_sub">Kertas Krem</string>
+    <string name="settings_theme_dark">Espresso</string>
+    <string name="settings_theme_dark_sub">Jurnal Malam</string>
+    <string name="settings_theme_system">Ikuti HP</string>
+    <string name="settings_theme_system_sub">Otomatis</string>
+
+    <string name="settings_pro_title">SnapScribe Pro</string>
+    <string name="settings_pro_desc_free">Cadangan cloud terenkripsi, ekspor PDF/Excel, OCR tulisan tangan &amp; pengingat jatuh tempo.</string>
+    <string name="settings_pro_desc_active">Langganan Pro aktif (%1$s). Kelola paket Anda di sini.</string>
+    <string name="settings_pro_cta_free">Lihat Fitur Pro &amp; Trial 7 Hari</string>
+    <string name="settings_pro_cta_active">Kelola SnapScribe Pro</string>
+
+    <string name="settings_storage_title">Penyimpanan &amp; Cache</string>
+    <string name="settings_storage_usage">%1$d MB cache indeks tersimpan di perangkat</string>
+    <string name="settings_clear_cache">Bersihkan Cache Lokal</string>
+    <string name="settings_clear_cache_title">Bersihkan Cache Lokal?</string>
+    <string name="settings_clear_cache_msg">Cache gambar sementara akan dibersihkan. Foto asli di galeri HP Anda tidak akan dihapus.</string>
+    <string name="settings_cache_cleared">Cache lokal berhasil dibersihkan</string>
+
+    <string name="settings_privacy_title" formatted="false">100% Brankas Privat</string>
+    <string name="settings_privacy_badge">Khusus Perangkat</string>
+    <string name="settings_privacy_body">SnapScribe memproses OCR langsung di HP Anda. Struk belanja, nomor rekening, dan sandi Wi-Fi tidak diunggah ke server mana pun dalam mode dasar.</string>
+    <string name="settings_privacy_chip1">Tanpa Unggahan</string>
+    <string name="settings_privacy_chip2">Terindeks Lokal</string>
+    <string name="settings_footer_version">SnapScribe v1.0.0 • Indeks Offline Sehat</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profil Akun</string>
+    <string name="profile_guest_badge">MODE OFFLINE GRATIS</string>
+    <string name="profile_guest_title">Anda Menggunakan Mode Offline</string>
+    <string name="profile_guest_desc" formatted="false">Semua foto dan teks tersimpan 100% di HP ini. Masuk atau buat akun gratis kapan saja jika ingin mengaktifkan cadangan Pro.</string>
+    <string name="profile_guest_cta">Masuk / Buat Akun Gratis</string>
+    <string name="profile_plan_free">Paket Free Account</string>
+    <string name="profile_plan_pro">SnapScribe Pro Aktif</string>
+    <string name="profile_stat_snaps">Slip Tersimpan</string>
+    <string name="profile_stat_folders">Folder Aktif</string>
+    <string name="profile_stat_month">Bulan Ini</string>
+    <string name="profile_security_section">Informasi Pribadi &amp; Keamanan</string>
+    <string name="profile_email_label">Email</string>
+    <string name="profile_verified_pill">Terverifikasi</string>
+    <string name="profile_phone_label">Nomor HP</string>
+    <string name="profile_biometric_title">Kunci Aplikasi Biometrik</string>
+    <string name="profile_biometric_desc">Minta sidik jari / wajah saat membuka SnapScribe</string>
+    <string name="profile_subscription_section">Status Langganan</string>
+    <string name="profile_upgrade_cta">Tingkatkan ke Pro</string>
+    <string name="profile_storage_section">Penyimpanan Lokal</string>
+    <string name="profile_storage_desc">%1$d MB cache indeks lokal tersimpan aman di perangkat</string>
+    <string name="profile_sign_out">Keluar Akun</string>
+    <string name="profile_sign_out_title">Keluar dari Akun?</string>
+    <string name="profile_sign_out_msg">Anda akan kembali ke halaman awal. Foto di galeri Anda tetap aman.</string>
+    <string name="profile_delete_local">Hapus Data Lokal</string>
+    <string name="profile_delete_local_title">Hapus Semua Data Lokal?</string>
+    <string name="profile_delete_local_msg">Seluruh indeks OCR lokal di aplikasi akan dihapus (foto asli di galeri tidak ikut terhapus).</string>
+    <string name="profile_local_deleted">Data indeks lokal telah dibersihkan</string>
+
+    <!-- Pro / Paywall Screen -->
+    <string name="pro_title">SnapScribe Pro</string>
+    <string name="pro_hero_badge">TINGKATKAN ARSIP ANDA</string>
+    <string name="pro_hero_title">Cadangkan, Ekspor &amp; Ingatkan Otomatis</string>
+    <string name="pro_hero_subtitle">Fitur inti SnapScribe tetap gratis &amp; offline selamanya. Pro hadir untuk pengguna aktif &amp; keluarga.</string>
+    <string name="pro_billing_monthly">Bulanan</string>
+    <string name="pro_billing_yearly">Tahunan</string>
+    <string name="pro_price_monthly">Rp 19.000 / bulan</string>
+    <string name="pro_price_yearly">Rp 149.000 / tahun</string>
+    <string name="pro_yearly_save">Hemat 35%</string>
+    <string name="pro_compare_title">Perbandingan Paket Transparan</string>
+    <string name="pro_col_feature">Fitur</string>
+    <string name="pro_col_free">Free</string>
+    <string name="pro_col_pro">Pro</string>
+
+    <string name="pro_feat_ocr">OCR On-Device &amp; Scan Kamera</string>
+    <string name="pro_feat_categories">4 Kategori Otomatis</string>
+    <string name="pro_feat_search">Pencarian Cepat &amp; Suara</string>
+    <string name="pro_feat_actions">Tombol Salin &amp; Aksi Cepat</string>
+    <string name="pro_feat_a11y">Aksesibilitas Teks Besar &amp; Kontras</string>
+    <string name="pro_feat_cloud">Cadangan Cloud Terenkripsi &amp; Sinkronisasi</string>
+    <string name="pro_feat_export">Ekspor Laporan Struk (PDF &amp; Excel)</string>
+    <string name="pro_feat_expiry">Pengingat Jatuh Tempo &amp; Kedaluwarsa</string>
+    <string name="pro_feat_handwritten">OCR Tulisan Tangan &amp; Folder Kustom</string>
+    <string name="pro_feat_early">Akses Awal Fitur Baru</string>
+
+    <string name="pro_trial_title">Uji Coba Gratis 7 Hari Tanpa Risiko</string>
+    <string name="pro_trial_day0">Hari ini: Rp 0 — Buka semua fitur Pro langsung.</string>
+    <string name="pro_trial_day5">Hari ke-5: Pengingat otomatis sebelum masa coba berakhir.</string>
+    <string name="pro_trial_day7">Hari ke-7: Tagihan mulai berlaku sesuai paket pilihan.</string>
+    <string name="pro_trial_reassurance">Batalkan kapan saja. File &amp; indeks lokal di HP Anda tidak akan pernah terhapus.</string>
+
+    <string name="pro_cta_guest">Masuk untuk Berlangganan</string>
+    <string name="pro_cta_trial">Mulai Uji Coba Gratis 7 Hari</string>
+    <string name="pro_cta_subscribe">Berlangganan %1$s</string>
+    <string name="pro_active_title">SnapScribe Pro Aktif</string>
+    <string name="pro_active_trial_badge">Masa Percobaan 7 Hari</string>
+    <string name="pro_active_renews">Diperpanjang otomatis pada %1$s</string>
+    <string name="pro_cancel_demo">Batalkan Langganan</string>
+    <string name="pro_trial_started_msg">Uji coba gratis 7 hari aktif! Pengingat dikirim pada hari ke-5.</string>
+    <string name="pro_subscribed_msg">Langganan SnapScribe Pro berhasil diaktifkan.</string>
+    <string name="pro_cancelled_msg">Langganan dibatalkan. Anda kembali ke Free Account; file lokal tetap aman.</string>
+</resources>

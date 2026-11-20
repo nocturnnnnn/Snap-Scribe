@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Warm terracotta stationery badge -->
+    <path
+        android:fillColor="#A43716"
+        android:pathData="M12,4 L36,4 A8,8 0 0,1 44,12 L44,36 A8,8 0 0,1 36,44 L12,44 A8,8 0 0,1 4,36 L4,12 A8,8 0 0,1 12,4 Z" />
+    <!-- Cream notebook / receipt page -->
+    <path
+        android:fillColor="#FFF8F4"
+        android:pathData="M15,12 L33,12 A2,2 0 0,1 35,14 L35,34 L31.5,31.5 L28,34 L24,31.5 L20,34 L16.5,31.5 L13,34 L13,14 A2,2 0 0,1 15,12 Z" />
+    <!-- OCR scan lines / ink marks -->
+    <path
+        android:fillColor="#A43716"
+        android:pathData="M17,18 L31,18 L31,20.2 L17,20.2 Z M17,22.8 L27,22.8 L27,25 L17,25 Z" />
+    <!-- Highlight dot (amber/sage accent) -->
+    <path
+        android:fillColor="#376847"
+        android:pathData="M29,22.8 A2,2 0 1,1 29,26.8 A2,2 0 1,1 29,22.8 Z" />
+</vector>
